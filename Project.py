@@ -45,7 +45,7 @@ def display_map():
 pygame.init()
 display_map()
 
-#get the user location by clicking on map
+#get the user location by clicking on map then the user can close by click quit button on the right corner
 while running:
     event = pygame.event.poll()
     if event.type == pygame.QUIT:
